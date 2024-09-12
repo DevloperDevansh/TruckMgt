@@ -36,7 +36,7 @@ public class TruckService {
     }
 
     //Show trucks
-    public List<Truck> getAllTruck() throws SQLException {
+    public  static List<Truck> getAllTruck() throws SQLException {
         List<Truck> trucks = new ArrayList<>();
         String sql = "SELECT * FROM truck";
         try (Connection connection = Connectiondetails.getconnection();

@@ -29,4 +29,14 @@
     <servlet-name>AddTruckServlet</servlet-name>
     <url-pattern>/AddTruckServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowAlltruck</display-name>
+    <servlet-name>ShowAlltruck</servlet-name>
+    <servlet-class>com.servlets.ShowAlltruck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowAlltruck</servlet-name>
+    <url-pattern>/ShowAlltruck</url-pattern>
+  </servlet-mapping>
 </web-app>
